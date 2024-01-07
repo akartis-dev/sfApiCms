@@ -1,5 +1,4 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+app_core_route:
+  # loads routes from the PHP attributes of the given class
+  resource: '../src/Core/'
+  type:     attribute
